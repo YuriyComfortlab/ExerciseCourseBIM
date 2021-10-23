@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise01", "Exercise01\Exercise01.csproj", "{8ECD4BD6-7E16-4901-B645-C1212DB4093B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex01_VSInstall", "Ex01_VSInstall", "{09977C26-F04E-4BF4-855B-E39F113E6A59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex02_FirstProgram", "Ex02_FirstProgram", "{EA585271-6C78-4DFA-8100-6798217A088F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex03_UslovnieOp", "Ex03_UslovnieOp", "{731613A2-A138-4FCF-BD65-821E09A79A43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex04_Cycles", "Ex04_Cycles", "{AB4EA02F-2D66-4010-B2A7-9E3D7359D52C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex05_Arrays", "Ex05_Arrays", "{68952E9F-30D9-48BF-A895-DFE37340E6A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex06_Strings", "Ex06_Strings", "{E661E741-E815-468B-9CFB-85161A4E2954}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex07_Metods", "Ex07_Metods", "{D7A9AC6E-FE43-4193-A99B-D18AEC8E452E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex08_FileSystem", "Ex08_FileSystem", "{A0F568C6-3A94-4FDF-9AE6-1866FA7230D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex09_Exceptions", "Ex09_Exceptions", "{8F34D2D7-194E-4704-A12E-5A7FC10440A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex10_Classes", "Ex10_Classes", "{764A06CC-0D08-49C7-89BC-6E6E3E708AF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex11_Struct", "Ex11_Struct", "{B8729A96-967E-405E-A984-3939C24E0E85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex12_Static", "Ex12_Static", "{8E48EA12-730C-4787-B9BA-E5FB8BD36912}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex13_Nasledovanie", "Ex13_Nasledovanie", "{70400110-1CDD-4A5E-9A88-A1BAC23549C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex14_AbstractСlasses", "Ex14_AbstractСlasses", "{43E2B129-438A-4B3C-8ED5-FCD26CB4454C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2", "Exercise02FirstPrg\FirstProgram\Exercise2.csproj", "{A1CD5949-AD67-457B-9953-6C9281F08574}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ECD4BD6-7E16-4901-B645-C1212DB4093B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ECD4BD6-7E16-4901-B645-C1212DB4093B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ECD4BD6-7E16-4901-B645-C1212DB4093B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ECD4BD6-7E16-4901-B645-C1212DB4093B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1CD5949-AD67-457B-9953-6C9281F08574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CD5949-AD67-457B-9953-6C9281F08574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CD5949-AD67-457B-9953-6C9281F08574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CD5949-AD67-457B-9953-6C9281F08574}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8ECD4BD6-7E16-4901-B645-C1212DB4093B} = {09977C26-F04E-4BF4-855B-E39F113E6A59}
+		{A1CD5949-AD67-457B-9953-6C9281F08574} = {EA585271-6C78-4DFA-8100-6798217A088F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45413D3D-C39D-4FD6-AEFA-F9E203AF0A6A}
+	EndGlobalSection
+EndGlobal
