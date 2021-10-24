@@ -27,13 +27,17 @@ namespace Interfaces
             arith.getNext();
             arith.getNext();
             arith.reset();
+            arith.getNext();
+
             Console.WriteLine();
+
             GeomProgression geom = new GeomProgression(2);  //100 - знаменатель геом прогрессии
             geom.setStart(4);
             geom.getNext();
             geom.getNext();
             geom.getNext();
             geom.reset();
+            geom.getNext();
 
             Console.ReadKey();
         }
@@ -48,6 +52,7 @@ namespace Interfaces
     class ArithProgression : ISeries
     {
         int d;
+        int begin;
         public int D
         {
             get
@@ -81,6 +86,7 @@ namespace Interfaces
             //x = Convert.ToInt32(Console.ReadLine());
 
             X = x;
+            begin = x;
             Console.WriteLine("Начальное значение a = {0}", X);
         }
 
@@ -96,12 +102,13 @@ namespace Interfaces
 
         public void reset()
         {
-            X = 0;            
+            X = begin;            
         }
     }
     class GeomProgression : ISeries
     {
         int d;
+        int begin;
         public int D
         {
             get
@@ -134,6 +141,7 @@ namespace Interfaces
             //Console.Write("Введите начальное значение a = ");
             //  x = Convert.ToInt32(Console.ReadLine());
             X = x;
+            begin = x;
             Console.WriteLine("Начальное значение a = {0}", X);
         }
 
@@ -149,8 +157,7 @@ namespace Interfaces
 
         public void reset()
         {
-            X = 0;
-            Console.WriteLine(X);
+            X = begin;           
         }
     }
 }
