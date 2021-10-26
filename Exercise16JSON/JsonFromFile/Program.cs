@@ -22,7 +22,8 @@ namespace JsonFromFile
 
             string jsonString = File.ReadAllText(path);
             Console.WriteLine(jsonString);
-            List<Product> products = JsonSerializer.Deserialize<List<Product>>(jsonString);  //не смог придумать, как без List массив преобразовать в объект, выдает ошибку
+            //List<Product> products = JsonSerializer.Deserialize<List<Product>>(jsonString);
+            Product[] products = JsonSerializer.Deserialize<Product[]>(jsonString);
             double max = 0;
             string maxPrice ="";
             foreach (var product in products)
