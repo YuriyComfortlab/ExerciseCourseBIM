@@ -99,6 +99,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonToFile", "Exercise16JSO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonFromFile", "Exercise16JSON\JsonFromFile\JsonFromFile.csproj", "{C537B0DA-8854-4AB1-A0FD-1FB210221B7E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex17_Generics", "Ex17_Generics", "{CA71D18E-0A53-48A5-9985-92BBFBE3AE6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Exercise17Generics\Generics\Generics.csproj", "{0AF49DD2-305C-4F93-9583-8D9C9E4B6E8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -233,6 +237,10 @@ Global
 		{C537B0DA-8854-4AB1-A0FD-1FB210221B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C537B0DA-8854-4AB1-A0FD-1FB210221B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C537B0DA-8854-4AB1-A0FD-1FB210221B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF49DD2-305C-4F93-9583-8D9C9E4B6E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF49DD2-305C-4F93-9583-8D9C9E4B6E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF49DD2-305C-4F93-9583-8D9C9E4B6E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF49DD2-305C-4F93-9583-8D9C9E4B6E8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -270,6 +278,7 @@ Global
 		{CDDA6AC8-9821-45F4-B13B-DC324FC40D7F} = {61F2E840-924A-4036-B3E1-810848057DA5}
 		{37FF70EA-FA39-43E3-9115-49D7D0E0272A} = {977DB696-6BFB-44DA-A2B8-B2A29E90CD7E}
 		{C537B0DA-8854-4AB1-A0FD-1FB210221B7E} = {977DB696-6BFB-44DA-A2B8-B2A29E90CD7E}
+		{0AF49DD2-305C-4F93-9583-8D9C9E4B6E8C} = {CA71D18E-0A53-48A5-9985-92BBFBE3AE6B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45413D3D-C39D-4FD6-AEFA-F9E203AF0A6A}
