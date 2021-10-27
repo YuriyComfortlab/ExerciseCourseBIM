@@ -73,6 +73,9 @@ namespace Generics
         public void Write (T number, double balance, string fio)
         {
             Number = number;
+            //для заполнения с консоли использовать ChangeType
+            //Number = (T)Convert.ChangeType(Console.ReadLine(), typeof(T));
+
             Balance = balance;
             Fio = fio;
         }
